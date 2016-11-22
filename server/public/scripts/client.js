@@ -7,11 +7,6 @@ app.config(['$routeProvider', function($routeProvider) {
       controller: 'HomeController',
       controllerAs: 'home'
     })
-    .when('/potato' ,{
-      templateUrl: '/views/templates/potato.html',
-      controller: 'PotatoController',
-      controllerAs: 'potato'
-    })
     .when('/strange' ,{
       templateUrl: '/views/templates/strange.html',
       controller: 'StrangeController',
@@ -40,9 +35,23 @@ app.controller('HomeController', function() {
 
 });
 
-app.controller('PotatoController', function() {
-  console.log('potato controller running');
+app.controller('StrangeController', function() {
+  console.log('strange controller running');
   var self = this;
-  self.message = "Potato controller is the best!";
+  self.message = "Strange controller is the best!";
+
+});
+
+app.controller('SherlockController', function() {
+  console.log('sherlock controller running');
+  var self = this;
+  self.message = "Sherlock controller is the best!";
+
+});
+
+app.controller('BartletController', function() {
+  console.log('Bartlet controller running');
+  var self = this;
+  self.message = "Bartlet controller is the best!";
 
 });
