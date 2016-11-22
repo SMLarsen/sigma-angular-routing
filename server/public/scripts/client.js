@@ -12,6 +12,21 @@ app.config(['$routeProvider', function($routeProvider) {
       controller: 'PotatoController',
       controllerAs: 'potato'
     })
+    .when('/strange' ,{
+      templateUrl: '/views/templates/strange.html',
+      controller: 'StrangeController',
+      controllerAs: 'strange'
+    })
+    .when('/bartlet' ,{
+      templateUrl: '/views/templates/bartlet.html',
+      controller: 'BartletController',
+      controllerAs: 'bartlet'
+    })
+    .when('/sherlock' ,{
+      templateUrl: '/views/templates/sherlock.html',
+      controller: 'SherlockController',
+      controllerAs: 'sherlock'
+    })
     .otherwise({
       redirectTo: 'home'
     });
