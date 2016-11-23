@@ -39,6 +39,7 @@ app.controller('StrangeController', function() {
   console.log('strange controller running');
   var self = this;
   self.message = "Strange controller is the best!";
+  self.showText = false;
 
 });
 
@@ -46,6 +47,7 @@ app.controller('SherlockController', function() {
   console.log('sherlock controller running');
   var self = this;
   self.message = "Sherlock controller is the best!";
+  self.showText = false;
 
 });
 
@@ -53,5 +55,6 @@ app.controller('BartletController', function() {
   console.log('Bartlet controller running');
   var self = this;
   self.message = "Bartlet controller is the best!";
+  self.showText = false;
 
 });

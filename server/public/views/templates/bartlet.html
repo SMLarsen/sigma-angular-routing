@@ -1,4 +1,33 @@
-<h1>Josiah Bartlet</h1>
-<img src="assets/images/Josiah_Bartlett_with_chair.jpg" alt="Josiah Bartlet" />
-<p>Josiah Edward "Jed" Bartlet, PhD., is a fictional character from the American television serial drama The West Wing, portrayed by Martin Sheen. The role earned Sheen a Golden Globe Award for Best Actor – Television Series Drama in 2001, as well as two SAG Awards.</p>
-<p>Bartlet's tenure as a Democratic President of the United States is a preeminent aspect of the series. His origin as a recurring character evolved due to Sheen's acting finesse; creator Aaron Sorkin and fellow West Wing writers shaped Bartlet's role within the show accordingly. The first season depicts part of his first and second years in office and subsequent seasons flesh out the details of his administration, including friction between his policies and those of the Republican-dominated Congress, his tribulations with multiple sclerosis, his reelection, and the campaign of his successor. Characterized by manifest integrity, quick witticisms, a fierce intellect, and compassionate stoicism, Bartlet is widely acclaimed by critics and political commentators alike as the "most popular Democratic president in recent memory".</p>
+<div class="container character">
+
+    <div class="col-md-3">
+        <h1>Josiah Bartlet</h1>
+    </div>
+
+    <div class="col-md-9">
+
+        <div class="characterImg" ng-show="!bartlett.showText">
+            <div class="col-md-2">
+                <button ng-click="bartlett.showText = !bartlett.showText" class="btn btn-primary">Show Text</button>
+            </div>
+            <div class="col-md-10">
+                <img src="assets/images/Josiah_Bartlett_with_chair.jpg" alt="Josiah Bartlet" />
+            </div>
+        </div>
+
+        <div class="characterText" ng-show="bartlett.showText">
+            <div class="col-md-2">
+                <button ng-click="bartlett.showText = !bartlett.showText" class="btn btn-primary">Show Picture</button>
+            </div>
+            <div class="col-md-10">
+                <p>Josiah Edward "Jed" Bartlet, PhD., is a fictional character from the American television serial drama The West Wing, portrayed by Martin Sheen. The role earned Sheen a Golden Globe Award for Best Actor – Television Series Drama in 2001,
+                    as well as two SAG Awards.</p>
+                <p>Bartlet's tenure as a Democratic President of the United States is a preeminent aspect of the series. His origin as a recurring character evolved due to Sheen's acting finesse; creator Aaron Sorkin and fellow West Wing writers shaped Bartlet's
+                    role within the show accordingly. The first season depicts part of his first and second years in office and subsequent seasons flesh out the details of his administration, including friction between his policies and those of the Republican-dominated
+                    Congress, his tribulations with multiple sclerosis, his reelection, and the campaign of his successor. Characterized by manifest integrity, quick witticisms, a fierce intellect, and compassionate stoicism, Bartlet is widely acclaimed
+                    by critics and political commentators alike as the "most popular Democratic president in recent memory".</p>
+
+            </div>
+        </div>
+    </div>
+</div>

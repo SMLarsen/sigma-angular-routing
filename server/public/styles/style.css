@@ -1,3 +1,26 @@
-.hidden {
-  visibility: hidden;
+.character {
+  margin-top: 2%;
+}
+
+button {
+  width: 130px;
+}
+
+img {
+  height: 350px;
+}
+
+.navMenu {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.characterText p {
+  text-align: justify;
+  padding: 20px;
+}
+
+.characterImg {
+  text-align: center;
 }
