@@ -16,7 +16,13 @@ h2 {
 h3 {
   text-align: center;
   font-family: 'Architects Daughter', cursive;
+  margin-top: 20px;
   font-size: 3em;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 50px;
 }
 
 .character {
@@ -69,4 +75,14 @@ img {
 
 .images img {
   height: 260px;
+}
+
+#footer {
+  background-color:  #1253b5;
+  height: 100px;
+  color: white;
+  position: relative;
+  bottom: -150px;
+  padding-top: 25px;
+  color: grey;
 }
