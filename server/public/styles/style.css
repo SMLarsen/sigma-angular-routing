@@ -13,6 +13,12 @@ h2 {
   text-shadow: 2px 2px lightgrey;
 }
 
+h3 {
+  text-align: center;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 3em;
+}
+
 .character {
   margin-top: 2%;
 }
@@ -52,4 +58,15 @@ img {
   padding-top: 15px;
   margin-bottom: 20px;
   width: 100%;
+}
+
+.images {
+  display: inline-flex;
+  justify-content: space-around;
+  align-content: space-around;
+  margin-top: 20px;
+}
+
+.images img {
+  height: 260px;
 }
